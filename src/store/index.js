@@ -11,6 +11,10 @@ export default createStore({
     cart: []
   },
   mutations: {
+    storeUser(state, data){
+      state.user = data
+      console.log('storeUser', data);
+    }
   },
   actions: {
   },
