@@ -1,4 +1,5 @@
 <template>
+  {{ $store.getters.total }}
   <AppProducts></AppProducts>
   <br><br>
   <br><br>
